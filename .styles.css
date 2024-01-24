@@ -1,0 +1,346 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: large;
+  margin: 0;
+  align-items: center;
+  padding: 0;
+  background-color: #3F3F3F;
+  color:#ffffff;
+}
+
+header {
+  background-color: #524536;
+  color: #ffffff;
+  font-size: large;
+  text-align: center;
+  padding: 1em 0;
+}
+
+nav {
+  display: none;
+  background-color: #333;
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  top: 60px;
+  left: 0;
+  z-index: 1;
+}
+
+nav a {
+  display: block;
+  padding: 1em;
+  color: #fff;
+  text-decoration: none;
+}
+img {
+  object-position: auto;
+}
+
+
+.menu-icon {
+  display: none;
+  cursor: pointer;
+  padding: 1em;
+  color: #fff;
+}
+
+@media screen and (max-width: 600px) {
+  nav {
+      display: block;
+  }
+
+  .menu-icon {
+      display: block;
+  }
+
+  ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+  }
+
+  li {
+      margin-bottom: 10px;
+  }
+}
+
+.fleche {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+.position_img1 {
+  height: auto;
+  display: flex;
+  width: 35%;
+  float: right;
+  clear: left;
+  margin-right: 50px;
+  margin-top: 90px;
+}
+
+.fond1 {
+  height: auto;
+  display: flex;
+  float: left;
+  clear: right;
+  margin-bottom: 20%;
+  margin-left: -10%;
+}
+
+.mention {
+  text-align: center;
+  margin-left: 30%;
+  width: 40%; 
+}
+
+.press1 {
+  text-align: left;
+  float: right;
+  margin-left: 5%;
+  width: 40%; 
+}
+
+.press2 {
+  text-align: right;
+  margin-right: 10%;
+  margin-top: -8%;
+  width: 100%; 
+}
+
+.press3 {
+  text-align: center;
+  margin-left: -65%;
+  margin-top: -10%;
+  width: 100%;
+}
+
+.bloc1 {
+  background-color: #85643D;
+  color: white;
+  margin-left: 30%;
+  margin-right: 30%;
+  height: 50%;
+}
+
+.bloctxt1 {
+  text-align: center;
+  color: white;
+}
+
+.bloc2 {
+  background-color: #85643D;
+  margin-left: 30%;
+  margin-right: 30%;
+  height: 50%;
+}
+
+.formulaire {
+  text-align: left;
+  margin-right: 150px;
+  margin-left: 150px;
+}
+
+.bloctxt2 {
+  text-align: center;
+}
+
+.bloc3 {
+  background-color: #85643D;
+  margin-left: 30%;
+  margin-right: 30%;
+  height: 50%;
+}
+
+.bloc4 {
+  background-color: #85643D;
+  margin-left: 30%;
+  margin-right: 30%;
+  height: 50%;
+}
+
+.bloctxt4 {
+  text-align: center;
+}
+
+.soraya {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ozvann {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.photo {
+  width: 200px;
+  height: auto;
+}
+
+.logo {
+  width: 20%; 
+  height: 20%;
+}
+
+.bloctxt3 {
+  text-align: center;
+}
+
+.pay {
+  margin-left: 30%;
+  margin-right: 30%;
+  height: 50%;
+  text-align: center;
+}
+
+.presentation {
+  text-align: left;
+  margin-left: 50px;
+  width: 45%; 
+}
+
+.form {
+  text-align: center;
+  margin-left: 50%;
+  width: 20%; 
+}
+
+.formtxt {
+  color: #ffffff;
+}
+
+.legale {
+  color: white;
+  text-decoration:underline;
+}
+
+.ilustration1 {
+  margin-right: 5%;
+}
+
+
+.fond2 {
+  background-color: grey;
+  height: 80px;
+  width: 90%;
+  margin-top: -3%;
+  margin-left: 5%;
+}
+
+.mail {
+  height: 15px;
+  width: 15px;
+}
+
+.ilustration2 {
+  text-align: center;
+  margin-left: 20%;
+  height: 20%;
+  margin-top: 10%;
+}
+
+.faceb {
+  position: relative;
+  bottom: 0;
+  width: 30px;
+  right: 0;
+}
+
+
+.boutonD{
+
+  top: 0;
+  right: 0;
+  object-position: inherit;
+  
+}
+
+.boutonG{
+
+  position:unset;
+  margin-right:1px;
+  
+}
+
+* {
+text-decoration: none;
+box-sizing: border-box;
+}
+
+
+.menu {
+top: 4%;
+position: fixed;
+
+width: 0px;
+}
+
+main {
+
+margin-left: 50px;
+width: 200px;
+text-align: justify;
+}
+
+#hamburger {
+
+display: none;
+}
+
+#hamburger-logo {
+
+cursor: pointer;
+background: #85643D;
+width: 200px;
+display: block;
+color: rgb(0, 0, 0);
+text-align: right;
+transform: translateX(-168px);
+padding: 10px;
+}
+
+nav {
+display: flex;
+flex-direction: column;
+background: #85643D;
+overflow: hidden;
+width: 200px;
+
+transform: translateX(-200px);
+}
+
+#hamburger-logo,
+nav {
+
+transition: 0.7s;
+}
+
+
+#hamburger:checked ~ #hamburger-logo,
+#hamburger:checked ~ nav {
+
+transform: translate(0);
+}
+
+nav a {
+color: rgb(0, 0, 0);
+text-decoration: none;
+padding: 10px;
+}
+
+nav a:hover {
+background: #524536;
+}
+
+
+footer {
+  font-size: large;
+  color: white;
+  background-color: #524536;
+}
+
