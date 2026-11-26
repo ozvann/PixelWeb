@@ -19,7 +19,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     mail($destinataire, $sujet, $contenu_message, $entetes);
 
     
-    header("Location: Index");
+    header("Location: index");
     exit;
 }
 ?>
