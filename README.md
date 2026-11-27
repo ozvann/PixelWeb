@@ -25,60 +25,9 @@ Les membres participant a ce projet était :
 
 ## Aperçu du projet en 2023-2024
 
+<p align="center">
+  <img src="assets/gif/pixelweb_banniere.gif" width="100%" alt="Présentation PixelWeb">
+</p>
 
-<div class="banniere">
-    <div class="defilement">
-        <img src="assets/images/PixelWeb_image_1.png" alt="Image 1">
-        <img src="assets/images/PixelWeb_image_2.png" alt="Image 2">
-        <img src="assets/images/PixelWeb_image_3.png" alt="Image 3">
-        <img src="assets/images/PixelWeb_image_4.png" alt="Image 4">
-        <img src="assets/images/PixelWeb_image_5.png" alt="Image 5">
-        <img src="assets/images/PixelWeb_image_6.png" alt="Image 6">
-        <img src="assets/images/PixelWeb_image_7.png" alt="Image 7">
-
-
-
-        <img src="assets/images/PixelWeb_image_1.png" alt="Image 1">
-        <img src="assets/images/PixelWeb_image_2.png" alt="Image 2">
-        <img src="assets/images/PixelWeb_image_3.png" alt="Image 3">
-        <img src="assets/images/PixelWeb_image_4.png" alt="Image 4">
-        <img src="assets/images/PixelWeb_image_5.png" alt="Image 5">
-        <img src="assets/images/PixelWeb_image_6.png" alt="Image 6">
-        <img src="assets/images/PixelWeb_image_7.png" alt="Image 7">
-    </div>
-</div>
-
-<style>
-.banniere {
-    width: 100%;
-    overflow: hidden;
-}
-
-.defilement {
-    display: flex;
-    width: max-content;
-    animation: defiler 20s linear infinite;
-}
-
-.defilement img {
-    width: 250px;
-    height: 150px;
-    object-fit: cover;
-    margin-right: 10px;
-}
-
-.defilement:hover {
-    animation-play-state: paused;
-}
-
-@keyframes defiler {
-    from {
-        transform: translateX(0);
-    }
-    to {
-        transform: translateX(-50%);
-    }
-}
-</style>
 
 ## Aperçus du projet actuel
